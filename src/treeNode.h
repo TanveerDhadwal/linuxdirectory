@@ -12,7 +12,7 @@ class treeNode{
         void getNode(std::string name);
         void listDirectory();
     private:
-        std::vector<treeNode> theNodes;
+        std::vector<treeNode*> theNodes;
         std::vector<std::string> fileName;
 };
 
